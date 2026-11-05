@@ -1,0 +1,9 @@
+school,seed,type,note,last_status,last_checked
+杭州电子科技大学,https://grs.hdu.edu.cn/2026/0929/c13800a301001/page.psp,pdf-attach,2027目录页含2024-2026报考上线录取情况PDF,verified,2026-11-01
+西安电子科技大学,https://gr.xidian.edu.cn/info/1074/20804.htm,pdf-attach,2027简章页含23份PDF附件,verified,2026-11-01
+山东大学,https://www.yz.sdu.edu.cn/info/1022/1491.htm,pdf-attach,2027简章（目录锁CAS，但页内有可解析PDF）,partial,2026-11-01
+深圳大学,https://yz.szu.edu.cn/info/1008/15416.htm,html-table,2027推免后统考计划专页（HTML表，无附件）,verified,2026-11-01
+南开大学,https://yzb.nankai.edu.cn/5509/,html-table,南开研招网硕士招生列表页（真实数据在二级页）,partial,2026-11-01
+中南大学,https://yz.csu.edu.cn/info/1011/1541.htm,html-table,2027章程（专业目录在独立系统）,partial,2026-11-01
+吉林大学,https://yzb.jlu.edu.cn/info/1047/3678.htm,captcha,2027章程+3份目录PDF但附件需验证码,failed,2026-11-01
+重庆邮电大学,http://yjs.cqupt.edu.cn/info/1240/15464.htm,blocked,2027简章（官网全站412）,failed,2026-11-01

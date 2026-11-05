@@ -1,0 +1,31 @@
+{
+  "_说明": "复制到你的数据目录，改名 filters.json。字段含义见 references/intake.md 第三节。",
+  "updated": "YYYY-MM-DD",
+  "exam_year": 2028,
+  "undergrad": {
+    "school": "unknown",
+    "major": "unknown",
+    "level": "普通本科（双非）"
+  },
+  "target": {
+    "major_code": "000000",
+    "major_name": "unknown",
+    "category": "unknown",
+    "degree": "专硕",
+    "mode": "全日制"
+  },
+  "provinces": [],
+  "province_priority": [],
+  "level": "不限",
+  "math": "unknown",
+  "cross_major": false,
+  "max_tuition": null,
+  "dorm_required": null,
+  "risk": "先看名单再定",
+  "hard_constraints": [],
+  "notes": {
+    "round1": "保留用户原话：范围类",
+    "round2": "保留用户原话：门槛类",
+    "round3": "保留用户原话：取舍类"
+  }
+}

@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2026 kaoyan skill contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 数据使用声明（与上面的代码许可分开看）
+
+1. **本工具只抓公开页面**，不绕过登录、验证码或付费墙；遇到这类页面会停下并提示。
+2. **原始数据的版权属于各招生单位 / 教育部**。本工具只做抓取、解析与整理，不主张任何数据的所有权。
+3. **不采集、不保存考生个人信息**：脚本只取「学院 / 专业代码 / 人数 / 分数」这类汇总字段；命中疑似含姓名的名单文件时不落盘，只记录链接（见 `scripts/fetch_school.py` 的 `looks_like_roster`）。
+4. **抓取频率**默认 0.3 秒/请求，单次不超过 8 个页面。批量使用请自行调大间隔，避免给对方服务器造成压力。
+5. **结论仅供参考**：所有阈值标注为「经验值，未回测」，不构成报考建议或录取承诺。最终以教育部、研招网与目标院校官方公告为准。
+6. 使用者应自行遵守所在地区的法律法规与目标网站的使用条款。因使用本工具产生的后果由使用者承担。

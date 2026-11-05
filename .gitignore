@@ -1,0 +1,31 @@
+# 登录态、cookie、任何带身份的凭据
+.secrets/
+*.har
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 抓取中间产物（可随时删）
+.cache/
+
+# 运行数据（默认不提交；设了 KAOYAN_HOME 时本来就不在 skill 目录）
+data/pool.csv
+data/sources.csv
+data/schools.csv
+data/selftest.csv
+assets/profile.md
+assets/filters.json
+assets/progress.md
+# 分数曲线（plan.md 里规定写到 reports/scores.csv，属个人数据）
+reports/scores.csv
+reports/*.md
+!reports/README.md
+!data/schools.template.csv
+!data/seeds.builtin.csv
+!assets/*.template.*
+
+# 报告里的大件不收（原始证据图仍需人工留档，不进仓库）
+reports/assets/*.zip
+reports/assets/*.png

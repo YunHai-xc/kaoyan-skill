@@ -1,0 +1,2 @@
+school,college,major_code,major_name,degree_type,study_mode,enroll_year,plan_total,plan_exempt,plan_special,quota_exam,line_school,line_college,line_major,admit_min,admit_avg,admit_median,fc_pass_rate,retest_ratio,retest_weight,subject_codes,changed_exam,sources,note,campus,tuition,dorm_available,dorm_fee
+示例大学,示例学院,000000,示例专业,unknown,unknown,2028,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,结构示例行：所有数值均为 unknown，用于演示字段顺序；正式使用时删掉本行,unknown,unknown,unknown,unknown
