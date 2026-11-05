@@ -1,0 +1,6 @@
+# 统一行尾：仓库里存 LF，Windows 检出时也不炸
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.xlsx binary
+*.zip binary
